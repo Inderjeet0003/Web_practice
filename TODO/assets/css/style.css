@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: r;
+}
+#container{
+    width: 500px;
+    height: 250px;
+    margin: 20px auto;
+    border: 2px solid red;
+    padding: 5px;
+}
+
+h1{
+    /* text-align: center; */
+    font-size: 2rem;
+    font-weight: 50px;
+}
+
+ span{
+    /* float: right;
+    margin-right: 20px; */
+    cursor: pointer;
+} 
+
+.completed{
+    color: grey;
+    text-decoration: line-through;
+}
+
+#plus{
+    float:right;
+    margin-right:20px;
+}
+
+input{
+    width:100%;
+    box-sizing:border-box;
+    padding: 10px;
+    font-size:20px;
+}
+

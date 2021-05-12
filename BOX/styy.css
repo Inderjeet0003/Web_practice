@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+nav{
+	position: fixed;
+	background-color:rgb(25, 26, 27);
+	font-size: 2rem;
+	width: 100%;
+	margin-bottom:30px;
+
+}
+ul{
+	list-style: none;
+}
+li{
+	display: inline-block;
+	margin-right: 20px;
+	padding: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+li:last-of-type {
+	position: absolute;
+	right: 20px;
+}
+
+li:last-of-type a{
+	color: red;
+}
+
+article{
+	/* border: 2px solid red; */
+	margin:0px auto;
+	width: 70%;
+	padding: 100px;
+	font-family: cursive;
+}
+
+h1{
+	font-size: 3rem;
+	text-align: center;
+	color: aqua;
+}

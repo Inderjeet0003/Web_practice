@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <h1 style="align-items: center;">New Blog</h1>
+        <h4>id of blog is =
+            <%= blog.id %>
+        </h4>
+        <h4>heading of blog is =
+            <%= blog.heading %>
+        </h4>
+        <h4>description of blog is =
+            <%= blog.des %>
+        </h4>
+        <form action="/blogs/<%= blog.id %>?_method=PATCH " method="POST">
+
+            <textarea name="des" cols="30" rows="10" placeholder="write description"><%= blog.des %> </textarea>
+            <br><br>
+
+            <button>Submit</button>
+        </form>
+
+
+    </body>
+
+    </html>
+</body>
+
+</html>
